@@ -57,11 +57,20 @@ body {
     transform: translateZ(-1px) scale(2);
 }
 
+.regular {
+    margin: 0 auto;
+    width: 100%;
+    background: #0d0d0c; 
+}
+
 .regular-wrapper {
-    width: 100vw;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
     height: 100vh;
     padding-top: 20vh;
     background-image: url("images/encrypt/screenshot02.png");
+    background-repeat: no-repeat;
     z-index: 2;
     position: relative;
 }
@@ -71,4 +80,30 @@ body {
     padding: 50px;
     width: 65%;
     background: #494a4a;
+}
+
+.footer {
+    padding: 10px;
+    width: 100%;
+    background: #494a4a;
+    bottom: 20vh;
+}
+
+.footer::before {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+    transform: translateZ(-1px) scale(2);
+}
+
+.footer img {
+    float: left;
+    width: 120px;
+    height: 100px;
+    position: relative;
+    padding-left: 50px;
+    bottom: 10px;
 }
