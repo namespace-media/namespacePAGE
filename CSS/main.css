@@ -26,8 +26,7 @@ body {
 
 .header img {
     float: left;
-    width: 120px;
-    height: 100px;
+    width: 125px;
     position: relative;
     padding-left: 50px;
     bottom: 10px;
@@ -213,6 +212,63 @@ p {
     padding-left: 50px;
     bottom: 10px;
 }
+
+.dropdown {
+    left: 700px;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    left: 50px;
+    margin: 0 auto;
+    display: none;
+    position: absolute;
+    background-color: #0d0d0c;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown-content p {
+    color: white;
+    text-decoration: inherit;
+    margin: 0 auto;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.encrypt-drop{
+    left: 750px;
+    position: relative;
+    display: inline-block;
+}
+
+.encrypt-dropcontent {
+    left: 50px;
+    margin: 0 auto;
+    display: none;
+    position: absolute;
+    background-color: #0d0d0c;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.encrypt-dropcontent p {
+    color: white;
+    text-decoration: inherit;
+    margin: 0 auto;
+}
+
+.encrypt-drop:hover .encrypt-dropcontent {
+  display: block;
+}
+
 
 /* unvisited link */
 a:link {
