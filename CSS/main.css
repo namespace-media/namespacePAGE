@@ -34,12 +34,8 @@ body {
 }
 
 .header img:hover {
-    float: left;
-    width: 120px;
-    height: 100px;
-    position: relative;
-    padding-left: 50px;
-    bottom: 10px;
+    opacity: 0.5;
+    transition: 0.3s;
 }
   
 .header span {
@@ -166,18 +162,31 @@ body {
     background: #0d0d0c;
 }
 
-.content h1 {
+h1, h2, h3, h4, h5, h6 {
     margin: 0 auto;
     padding-left: 20px;
     font-family: 'Archivo Black', sans-serif;
     
 }
 
-.content p {
+p {
     margin: 0 auto;
     padding-left: 20px;
     padding-right: 20px;
 }
+
+.content img {
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    width: 49%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+    background-color: #d400c3;
+    z-index: 10;
+}
+
 
 .footer {
     padding: 10px;
@@ -212,7 +221,7 @@ a:link {
   
   /* visited link */
   a:visited {
-    color: #c70381;
+    color: #d400c3;
   }
   
   /* mouse over link */
@@ -223,4 +232,19 @@ a:link {
   /* selected link */
   a:active {
     color: #74014b;
+  }
+
+ /* width */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background-image: url(images/assets/scrollbar-track.png);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background-image: url(images/assets/scrollbar-pick.png);
   }
