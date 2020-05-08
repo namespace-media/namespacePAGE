@@ -44,6 +44,27 @@ nav ul li a{
     text-transform: uppercase;
 }
 
+nav ul li ul{
+    display: none;
+    position: absolute;
+    background-color: #242426;
+    padding: 10px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+nav ul li:hover ul{
+    display: block;
+}
+
+nav ul li ul li{
+    width: 120px;
+    border-radius: 4px;
+}
+
+nav ul li ul li{
+    text-align: center;
+}
+
 a.active, a:hover{
     background: #026a91;
     transition: .5s;
@@ -101,6 +122,9 @@ a.active, a:hover{
     }
     #check:checked ~ ul{
         left: 0;
+    }
+    .logo img {
+        display: none   ;
     }
 }
 
