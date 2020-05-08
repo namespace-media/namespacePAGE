@@ -219,6 +219,11 @@ p {
     display: inline-block;
 }
 
+.dropdown span:hover{
+    opacity: 0.5;   
+    transition-duration: 0.4s;
+}
+
 .dropdown-content {
     left: 50px;
     margin: 0 auto;
@@ -235,6 +240,11 @@ p {
     color: white;
     text-decoration: inherit;
     margin: 0 auto;
+    transition-duration: 0.4s;
+}
+
+.dropdown-content p:hover {
+    opacity: 0.5;
 }
 
 .dropdown:hover .dropdown-content {
@@ -245,6 +255,11 @@ p {
     left: 750px;
     position: relative;
     display: inline-block;
+}
+
+.encrypt-drop span:hover{
+    opacity: 0.5;   
+    transition-duration: 0.4s;
 }
 
 .encrypt-dropcontent {
@@ -263,10 +278,43 @@ p {
     color: white;
     text-decoration: inherit;
     margin: 0 auto;
+    transition-duration: 0.4s;
+}
+
+.encrypt-dropcontent p:hover {
+    opacity: 0.5;
 }
 
 .encrypt-drop:hover .encrypt-dropcontent {
   display: block;
+}
+
+.download {
+    left: 1700px;
+    position: relative;
+    display: inline-block;
+}
+
+.download button{
+    margin: 0 auto;
+    background-color: #0082c6;
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  } 
+
+.download button:hover {
+    opacity: 0.5;
+    color: #0d0d0c;
+    background-color: #0082c6;
 }
 
 
