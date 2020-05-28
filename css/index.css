@@ -129,7 +129,7 @@ a.active, a:hover{
 }
 
 section{
-    background: url(images/encrypt/screenshot01.PNG) no-repeat;
+    background: url(images/misc/under\ construct.png) no-repeat;
     background-size: cover;
     height: calc(100vh - 80px);
 }
@@ -140,4 +140,19 @@ section{
     position: relative;
     padding-left: 50px;
     top: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 auto;
+    padding-left: 20px;
+    font-family: 'Archivo Black', sans-serif;
+    text-align: center;
+    color: white;
+    
+}
+
+p {
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
 }

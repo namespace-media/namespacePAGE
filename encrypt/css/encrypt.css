@@ -7,8 +7,17 @@
 }
 
 body{
+    margin: 0;
+    font-size: 26px;
     font-family: 'Quicksand', sans-serif;
     font-weight: 300;
+    color: white;
+    background-color: #0d0d0c;
+    height: 100vh;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 nav{
@@ -140,4 +149,24 @@ section{
     position: relative;
     padding-left: 50px;
     top: 10px;
+}
+
+.content {
+    margin: 0 auto;
+    padding: 10px;       
+    background: #0d0d0c;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 auto;
+    padding-left: 20px;
+    font-family: 'Archivo Black', sans-serif;
+    
+}
+
+p {
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
 }
